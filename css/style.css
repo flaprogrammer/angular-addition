@@ -1,0 +1,46 @@
+
+.screen {
+	padding: 50px;
+}
+
+.form-wrapper {
+	width: 400px;
+	margin: auto;
+}
+
+
+.plus {
+	position: relative;
+	width: 100%;
+}
+
+.plus__left {
+	width: 50%;
+	height: 400px;
+	float: left;
+	background: #e7c3c3;
+	transition: width 1s ease;
+}
+
+.plus__right {
+	width: 50%;
+	height: 400px;
+	float: left;
+	background: #ebccd1;
+	transition: width 1s ease;
+}
+
+@media screen and (max-width: 790px) {
+	.plus__left {
+		width: 0;
+	}
+
+	.plus__right {
+		width: 100%;
+	}
+}
+
+
+.info {
+	min-width: 395px;
+}
